@@ -3,12 +3,11 @@
   import Header from "$lib/components/Header.svelte";
 </script>
 
-<div class="nevim container">
+<div class="bg-cover bg-center" style="background-image: url(/static/hor.jpg)">
 
 <Header />
 <slot />
+
 </div>
 <style>
-  .nevim {
-    }
 </style>
