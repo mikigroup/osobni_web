@@ -1,5 +1,5 @@
 <h1>NADPIS HOME PAGE</h1>
-<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum
 suspendisse ultrices. Consectetur purus ut faucibus pulvinar elementum integer
 enim. Blandit cursus risus at ultrices. Imperdiet massa tincidunt nunc pulvinar
