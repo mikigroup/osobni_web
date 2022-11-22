@@ -50,3 +50,7 @@ id diam. Semper quis lectus nulla at volutpat diam. Tincidunt praesent semper
 feugiat nibh sed. A cras semper auctor neque. Fusce ut placerat orci nulla.
 Mattis nunc sed blandit libero volutpat sed cras ornare arcu.</p>
 
+<div class="animace">
+  ANIMACE
+</div>
+
