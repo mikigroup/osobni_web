@@ -1,7 +1,20 @@
-<h1 />
-<div class="circleBase circle1" />
-<div class="circleBase circle2" />
+<style>
+  .small {
+    font: italic 13px sans-serif;
+  }
+  .heavy {
+    font-size: 50px;    
+  }
 
+  /* Note that the color of the text is set with the    *
+     * fill property, the color property is for HTML only */
+  .Rrrrr {
+    font: italic 40px serif;
+    fill: red;
+  }
+</style>
+
+<h1 />
 <!-- <div class="">
   <div class="hp-cyrcle-div flex justify-center">
     <svg class="hp-cyrcle" style="left: 10%;">
@@ -25,29 +38,42 @@
   </div>
 </div> -->
 
-<div class="grid grid-cols-2">
-<div class="svg-container">
-  <svg
-    style="left: 30%;"
-    version="1.1"
-    viewBox="0 0 500 500"
-    preserveAspectRatio="xMinYMin meet"
-    class="svg-content">
-    <circle                
+<!-- <svg viewBox="0 0 240 80" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="35" class="small"></text>
+  <text x="40" y="35" class="heavy">Nové</text>
+  <text x="55" y="55" class="small">stránky</text>
+  <text x="95" y="55" class="Rrrrr">Čekají!</text>
+</svg> -->
+
+<div class="grid grid-cols-2 test">
+  <div class="svg-container">
+    <svg
+      style="left: 65%;"
+      version="1.1"
+      viewBox="0 0 1000 500"
+      preserveAspectRatio="xMinYMin meet"
+      class="svg-content">
+      <circle
         cx="200"
         cy="200"
         r="190"
         stroke="black"
         stroke-width="1"
         fill="#1dacd6" />
-  </svg>
-</div>
+        <text x="200" y="215"
+          class="heavy"
+          text-anchor="middle"                   
+          alignment-baseline="middle"
+          > Miki
+    </text>
+    </svg>
+  </div>
 
   <div class="svg-container">
-    <svg  
-      style="right: 10%;"   
+    <svg
+      style="right: 5%;"
       version="1.1"
-      viewBox="0 0 500 500"
+      viewBox="0 0 1000 500"
       preserveAspectRatio="xMinYMin meet"
       class="svg-content">
       <circle
@@ -57,6 +83,12 @@
         stroke="black"
         stroke-width="1"
         fill="#a3c1ad" />
+        <text x="200" y="215"
+          class="heavy"
+          text-anchor="middle"                   
+          alignment-baseline="middle"
+          > Group
+    </text>
     </svg>
   </div>
 </div>

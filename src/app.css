@@ -11,9 +11,26 @@
       .hp-cyrcle { width: 300px  !important; height: 300px !important; }              
 } */
 
+
+@keyframes hp-cyrcle {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.test {
+  height: 0%;
+  vertical-align: middle;
+}
+
+
 .hp-cyrcle {
   position: relative;
   width: 500px;
+  animation-name: hp-cyrcle;
+  animation-duration: 10s;
 }
 
 .hp-cyrcle-div {
@@ -22,15 +39,12 @@
 
 .svg-content { 
 	position: relative;
-	
 }
 
 .svg-container { 
 	display: inline-block;
 	position: relative;
 	width: 100%;
-	padding-bottom: 100%; 
-	vertical-align: middle; 
 	/* overflow: hidden;  */
 }
 
