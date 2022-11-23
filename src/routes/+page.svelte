@@ -1,56 +1,82 @@
-<h1>NADPIS HOME PAGE</h1>
-<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum
-suspendisse ultrices. Consectetur purus ut faucibus pulvinar elementum integer
-enim. Blandit cursus risus at ultrices. Imperdiet massa tincidunt nunc pulvinar
-sapien. Elementum nibh tellus molestie nunc non blandit massa. Sapien eget mi
-proin sed libero enim sed. Faucibus nisl tincidunt eget nullam non nisi. Neque
-vitae tempus quam pellentesque nec nam aliquam. Quam viverra orci sagittis eu
-volutpat. Eros donec ac odio tempor orci dapibus ultrices. Eu augue ut lectus
-arcu bibendum at varius vel. Malesuada fames ac turpis egestas sed tempus urna
-et pharetra. Tellus mauris a diam maecenas sed enim ut. Sapien nec sagittis
-aliquam malesuada bibendum. Phasellus faucibus scelerisque eleifend donec
-pretium. Quisque egestas diam in arcu cursus euismod quis viverra. Vitae
-elementum curabitur vitae nunc sed velit dignissim. Lectus mauris ultrices eros
-in cursus turpis. Turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet.
-Diam ut venenatis tellus in metus vulputate eu scelerisque. Risus commodo
-viverra maecenas accumsan lacus vel. Tristique risus nec feugiat in fermentum
-posuere urna nec. Tellus mauris a diam maecenas sed enim ut sem viverra. Egestas
-tellus rutrum tellus pellentesque eu. Lectus urna duis convallis convallis.
-Vitae tempus quam pellentesque nec. Ac tincidunt vitae semper quis lectus. At
-tellus at urna condimentum. Eu lobortis elementum nibh tellus molestie nunc non
-blandit. Varius vel pharetra vel turpis nunc eget lorem dolor sed. Porta nibh
-venenatis cras sed felis eget velit aliquet. Arcu felis bibendum ut tristique et
-egestas quis ipsum. Et tortor at risus viverra. Commodo sed egestas egestas
-fringilla. In massa tempor nec feugiat nisl pretium. Velit sed ullamcorper morbi
-tincidunt ornare massa. Magna fringilla urna porttitor rhoncus dolor purus non
-enim. Scelerisque eu ultrices vitae auctor eu augue. Sagittis nisl rhoncus
-mattis rhoncus urna neque viverra justo. Enim ut tellus elementum sagittis
-vitae. Enim sit amet venenatis urna cursus eget. Leo vel fringilla est
-ullamcorper. Nisi lacus sed viverra tellus in hac habitasse platea. Cras
-pulvinar mattis nunc sed blandit libero volutpat sed. Morbi tristique senectus
-et netus et. Vehicula ipsum a arcu cursus vitae congue mauris. Accumsan sit amet
-nulla facilisi. Leo a diam sollicitudin tempor id eu. Tempus iaculis urna id
-volutpat. Egestas diam in arcu cursus euismod quis viverra nibh cras. Sit amet
-volutpat consequat mauris nunc congue. Donec massa sapien faucibus et molestie
-ac feugiat. Sodales neque sodales ut etiam. Nulla porttitor massa id neque
-aliquam vestibulum morbi blandit cursus. Lectus proin nibh nisl condimentum.
-Nunc id cursus metus aliquam. In hendrerit gravida rutrum quisque non tellus
-orci ac auctor. Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed.
-At lectus urna duis convallis convallis tellus id interdum. Egestas integer eget
-aliquet nibh praesent tristique. Elit sed vulputate mi sit amet mauris commodo
-quis. Tristique nulla aliquet enim tortor at auctor urna nunc. Proin sagittis
-nisl rhoncus mattis rhoncus urna neque viverra. Tortor id aliquet lectus proin.
-Non nisi est sit amet facilisis magna. Felis donec et odio pellentesque diam
-volutpat commodo. Mauris pellentesque pulvinar pellentesque habitant morbi
-tristique. Risus at ultrices mi tempus imperdiet. Velit aliquet sagittis id
-consectetur purus ut faucibus pulvinar elementum. Massa id neque aliquam
-vestibulum morbi. Eu nisl nunc mi ipsum faucibus vitae aliquet. Sit amet aliquam
-id diam. Semper quis lectus nulla at volutpat diam. Tincidunt praesent semper
-feugiat nibh sed. A cras semper auctor neque. Fusce ut placerat orci nulla.
-Mattis nunc sed blandit libero volutpat sed cras ornare arcu.</p>
+<h1 />
+<div class="circleBase circle1" />
+<div class="circleBase circle2" />
 
-<div class="animace">
-  ANIMACE
+<!-- <div class="">
+  <div class="hp-cyrcle-div flex justify-center">
+    <svg class="hp-cyrcle" style="left: 10%;">
+      <circle
+        cx="200"
+        cy="200"
+        r="190"
+        stroke="black"
+        stroke-width="1"
+        fill="#1dacd6" />
+    </svg>
+    <svg class="hp-cyrcle" style="right: 5%">
+      <circle
+        cx="200"
+        cy="200"
+        r="190"
+        stroke="black"
+        stroke-width="1"
+        fill="#a3c1ad" />
+    </svg>
+  </div>
+</div> -->
+
+<div class="grid grid-cols-2">
+<div class="svg-container">
+  <svg
+    style="left: 30%;"
+    version="1.1"
+    viewBox="0 0 500 500"
+    preserveAspectRatio="xMinYMin meet"
+    class="svg-content">
+    <circle                
+        cx="200"
+        cy="200"
+        r="190"
+        stroke="black"
+        stroke-width="1"
+        fill="#1dacd6" />
+  </svg>
 </div>
 
+  <div class="svg-container">
+    <svg  
+      style="right: 10%;"   
+      version="1.1"
+      viewBox="0 0 500 500"
+      preserveAspectRatio="xMinYMin meet"
+      class="svg-content">
+      <circle
+        cx="200"
+        cy="200"
+        r="190"
+        stroke="black"
+        stroke-width="1"
+        fill="#a3c1ad" />
+    </svg>
+  </div>
+</div>
+
+<!-- <div class="svg-box">
+  
+  <svg class="svg-box-content" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0, 0, 200, 200">
+    <defs>
+      <linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="252.5" y1="68.023" x2="756.5" y2="940.977" gradientTransform="matrix(0.2, 0, 0, 0.2, 0, 0)">
+        <stop offset="0" stop-color="#002C3A"/>
+        <stop offset="1" stop-color="#1E3307"/>
+      </linearGradient>
+    </defs>
+    <g id="Layer_1">
+      <path d="M0.1,0.1 L201.7,0.1 L201.7,201.7 L0.1,201.7 z" fill="url(#Gradient_1)"/>
+    </g>
+    <g id="Layer_2">
+      <path d="M84.781,143.057 L111.429,72.948 L120.395,71.952 L120.395,58.877 L77.185,58.877 L77.185,71.952 L89.637,72.948 C75.566,113.42 74.32,117.28 73.075,120.891 C71.83,116.408 70.834,113.42 57.136,72.948 L69.339,71.952 L69.339,58.877 L25.132,58.877 L25.132,71.952 L33.849,72.948 L60.124,143.057 z" fill="#FCFCF2"/>
+      <path d="M174.868,130.873 L165.257,130.873 L165.257,54.831 C155.527,54.951 144.715,56.994 134.985,59.637 L134.985,71.89 L146.157,71.89 L146.157,83.783 C143.273,82.701 138.468,82.221 135.345,82.221 C120.329,82.221 106.514,91.231 106.514,115.136 C106.514,134.117 116.605,145.169 130.059,145.169 C136.666,145.169 142.312,142.526 147.118,138.081 L148.199,145.049 C157.209,145.049 167.299,144.208 174.868,142.646 z M146.157,127.149 C142.312,129.191 138.949,130.152 136.546,130.152 C130.66,130.152 126.095,127.029 126.095,114.175 C126.095,100.36 132.222,97.838 138.348,97.838 C140.511,97.838 143.273,98.078 146.157,98.679 z" fill="#FCFCF2"/>
+    </g>
+  </svg>
+
+</div> -->
