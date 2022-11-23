@@ -1,16 +1,6 @@
 <style>
-  .small {
-    font: italic 13px sans-serif;
-  }
   .heavy {
     font-size: 50px;    
-  }
-
-  /* Note that the color of the text is set with the    *
-     * fill property, the color property is for HTML only */
-  .Rrrrr {
-    font: italic 40px serif;
-    fill: red;
   }
 </style>
 
