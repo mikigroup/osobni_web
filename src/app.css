@@ -13,25 +13,19 @@
 
 
 @keyframes hp-cyrcle {
-   0%{transform: translateY(-10%);transition: ease 0.5s;}
-  50%{transform: translateY(10%);transition: ease 0.5s;}
+   0%{transform: translateX(0%);transition: ease 0.5s;}
+  50%{transform: translateX(70%);transition: ease 0.5s;}
 }
 
-.hp-cyrcle{
-  transform: translateY(-10%);
-  animation: hp-cyrcle 30.0s infinite;
-  transition: ease 0.5s;
+@keyframes hp-cyrcle2 {
+   0%{transform: translateX(60%);transition: ease 0.5s;}
+  50%{transform: translateX(0%);transition: ease 0.5s;}
 }
+
 
 .test {
   height: 0%;
   vertical-align: middle;
-}
-
-
-.hp-cyrcle {
-  position: relative;
-  width: 500px;
 }
 
 .hp-cyrcle-div {
@@ -42,16 +36,28 @@
 	position: relative;
 }
 
-.svg-container { 
+
+.svg-cyrcle1 { 
 	display: inline-block;
 	position: relative;
 	width: 100%;
   animation-name: hp-cyrcle;
-  animation-duration: 10s;
-  transform: translateY(-10%);
-  animation: hp-cyrcle 30.0s infinite;
+  animation-duration: 2s;  
+  animation: hp-cyrcle 20.0s infinite;
   transition: ease 0.5s;
 	/* overflow: hidden;  */
+}
+
+.svg-cyrcle2 { 
+	display: inline-block;
+	position: relative;
+	width: 100%;
+  animation-name: hp-cyrcle2;
+  animation-duration: 2s;
+  transform: translateX(60%);
+  animation: hp-cyrcle2 20.0s infinite;
+  transition: ease 0.5s;
+	
 }
 
 /* .svg-box {

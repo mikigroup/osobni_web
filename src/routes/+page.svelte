@@ -35,10 +35,12 @@
   <text x="95" y="55" class="Rrrrr">Čekají!</text>
 </svg> -->
 
+
+
 <div class="grid grid-cols-2 test">
-  <div class="svg-container">
+  <div class="svg-cyrcle1">
     <svg
-      style="left: 65%;"
+      style=""
       version="1.1"
       viewBox="0 0 1000 500"
       preserveAspectRatio="xMinYMin meet"
@@ -59,7 +61,7 @@
     </svg>
   </div>
 
-  <div class="svg-container">
+  <div class="svg-cyrcle2">
     <svg
       style="right: 5%;"
       version="1.1"
