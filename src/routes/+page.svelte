@@ -1,6 +1,8 @@
 <style>
   .heavy {
-    font-size: 50px;    
+    font-size: 5em;
+    /* font-family: 'Patrick Hand', cursive; */    
+    font-family: 'Rubik Distressed', cursive;
   }
 </style>
 
@@ -37,6 +39,9 @@
 
 
 
+
+
+<div class="flex justify-center">
 <div class="grid grid-cols-2 test">
   <div class="svg-cyrcle1">
     <svg
@@ -52,7 +57,7 @@
         stroke="black"
         stroke-width="1"
         fill="#1dacd6" />
-        <text x="200" y="215"
+        <text x="200" y="230"
           class="heavy"
           text-anchor="middle"                   
           alignment-baseline="middle"
@@ -61,21 +66,21 @@
     </svg>
   </div>
 
-  <div class="svg-cyrcle2">
+  <div class="">
     <svg
       style="right: 5%;"
       version="1.1"
       viewBox="0 0 1000 500"
       preserveAspectRatio="xMinYMin meet"
-      class="svg-content">
+      class="svg-cyrcle2">
       <circle
         cx="200"
         cy="200"
         r="190"
         stroke="black"
         stroke-width="1"
-        fill="#a3c1ad" />
-        <text x="200" y="215"
+        fill="#add8e6" />
+        <text x="200" y="230"
           class="heavy"
           text-anchor="middle"                   
           alignment-baseline="middle"
@@ -84,6 +89,9 @@
     </svg>
   </div>
 </div>
+</div>
+
+
 
 <!-- <div class="svg-box">
   
