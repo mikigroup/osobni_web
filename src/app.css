@@ -11,33 +11,63 @@
       .hp-cyrcle { width: 300px  !important; height: 300px !important; }              
 } */
 
+.floating-img {
+		transform: translateY(-10%);
+		animation: floater-y 30s infinite;
+		transition: ease 0.5s;
+	}
+	.floating-img2 {
+		transform: translateX(-10%);
+		animation: floater-x 30s infinite;
+		transition: ease 0.5s;
+	}
+	@keyframes floater-y {
+		0% {
+			transform: translateY(-10%);
+			transition: ease 0.5s;
+		}
+		50% {
+			transform: translateY(10%);
+			transition: ease 0.5s;
+		}
+	}
+	@keyframes floater-x {
+		0% {
+			transform: translateX(-10%);
+			transition: ease 0.5s;
+		}
+		50% {
+			transform: translateX(10%);
+			transition: ease 0.5s;
+		}
+	}
 
-@keyframes hp-cyrcle {
+
+/* @keyframes hp-cyrcle {
    0%{transform: translateX(0%);transition: ease 0.5s;}
-  50%{transform: translateX(70%);transition: ease 0.5s;}
+  50%{transform: translateX(10%);transition: ease 0.5s;}
 }
 
 @keyframes hp-cyrcle2 {
-   0%{transform: translateX(0%);transition: ease 0.5s;}
-  50%{transform: translateX(20%);transition: ease 0.5s;}
-}
+  50%{transform: translateY(10%);transition: ease 0.5s;}
+  0%{transform: translateY(0%);transition: ease 0.5s;}
+} */
 
 .test {
   height: 0%;
   vertical-align: middle;
 }
 
-.hp-cyrcle-div {
+/* .hp-cyrcle-div {
   height: 400px;
-}
+} */
 
 .svg-content { 
 	position: relative;
 }
 
-.svg-cyrcle1 { 
-	display: inline-block;
-	position: relative;
+.svg-cyrcle1 { 	
+	/* position: relative; */
 	width: 100%;
   animation-name: hp-cyrcle;
   animation-duration: 2s;  
@@ -47,25 +77,25 @@
 }
 
 .svg-cyrcle2 { 
-	display: inline-block;
+	/* display: inline-block; */
 	position: relative;
 	width: 100%;
   animation-name: hp-cyrcle2;
-  animation-duration: 2s;
-  animation: hp-cyrcle2 20.0s infinite;
+  animation-duration: 5s;
+  animation: hp-cyrcle2 5.0s infinite;
   transition: ease 0.5s;
 }
 
-.test {
-  background-image: url('/static/pix.png');
+/* .test {
+  background-image: url('/static/e.gif');
   background-repeat: no-repeat;
   background-size: cover;
   align-self: center;
   width: 1542px;
-  height: 1167px;
+  height: 900px;
   vertical-align: middle;  
   text-align: justify;
-}
+} */
 
 /* .svg-box {
     width: 100%;
