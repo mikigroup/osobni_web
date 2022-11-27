@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: Lighters;
+    src: url("/static/lighters-font/Lightersdemo-z8p30.otf") format("opentype");
+}
+
+.Lighters {
+  font-family: 'Lighters', serif;
+  font-size: 80px;
+}
+
+
 /* @media all and (max-width: 800px) {
       .hp-cyrcle {  }      
     }

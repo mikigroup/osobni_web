@@ -25,8 +25,8 @@
 </style>
 
 <div class="bg w-full grid justify-center">
+  <p class="Lighters" >Miki <br> Group</p>
 <!-- <div class="">01</div> -->
 <!-- <img src="/static/a.png" alt=""> -->
-01
-  </div>
 
+  </div>
