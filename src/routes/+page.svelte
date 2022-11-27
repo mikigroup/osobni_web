@@ -4,7 +4,7 @@
     /* font-family: 'Patrick Hand', cursive; */
     font-family: 'Rubik Distressed', cursive;
   }
-      
+     
       .bg {
         background-image: url("/static/c.png");
         height: 100%;
@@ -16,17 +16,31 @@
         background-size: cover; 
       }
 
-   .test {
-        background-image: url('/static/c.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
+         .parent {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .image1 {
+        position: relative;
+        top: 0;
+        left: 0;        
+      }
+      .image2 {
+        position: absolute;
+        top: 70px;
+        left: 70px;        
       }
 </style>
 
-<div class="bg w-full grid justify-center">
-  <p class="Lighters" >Miki <br> Group</p>
-<!-- <div class="">01</div> -->
-<!-- <img src="/static/a.png" alt=""> -->
 
+
+<div class="bg w-full grid p-2 sm:pl-0 sm:justify-center pt-10"> 
+    <div class="parent">                  
+      <div class="image1 Lighters text-5xl">Miki</div>
+      <div class="image2 Lighters text-5xl">Group</div>
+    </div>
+    <div>
+    <p class=" text-white text-2xl">Jiří Mika - </p>
+      </div>
   </div>

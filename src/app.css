@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 @font-face {
     font-family: Lighters;
@@ -9,7 +12,7 @@
 
 .Lighters {
   font-family: 'Lighters', serif;
-  font-size: 80px;
+  /* font-size: 80px; */
 }
 
 
@@ -85,6 +88,10 @@
   animation: hp-cyrcle 20.0s infinite;
   transition: ease 0.5s;
 	/* overflow: hidden;  */
+}
+
+p {
+  font-family: 'Inter', sans-serif;
 }
 
 .svg-cyrcle2 { 
