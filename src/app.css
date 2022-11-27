@@ -15,6 +15,11 @@
   /* font-size: 80px; */
 }
 
+svg {
+ width: 60%;
+ height: 60%;
+}
+
 
 /* @media all and (max-width: 800px) {
       .hp-cyrcle {  }      
