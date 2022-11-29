@@ -1,14 +1,15 @@
-<footer class="pt-5 mt-5 mx-2 md:mx-5 border border-slate-300 rounded-lg bg-slate-100">
-  <div class="grid grid-cols-2">
-  <div class="ml-5">
-    Jiří Mika, Jeseník - kontakt
+<footer class="pt-5 m-5 border border-slate-300 rounded-lg bg-slate-100">
+  <div class="grid md:justify-end">    
+      <div class="">        
+          <p class="grid place-content-end text-sm m-5">
+            Všechny práva vyhrazena
+          </p>        
+      </div>    
   </div>
-  <div class="grid justify-end">
-    <div class="pt-3">
-    <span class="grid w-80 h-20">
-      <p class="grid place-content-end text-sm">Všechny práva vyhrazena - Jiří Mika - Mikigroup</p>
-    <span class="grid justify-end grid w-50 h-20">
-    <svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+</footer>
+
+<!-- 
+ <svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    width="98px" height="100px" viewBox="0 0 98 100" enable-background="new 0 0 98 100" xml:space="preserve">
 <path fill="#FFFFFF" d="M85.715,26.547h-7.457c1.711-5.512,0.539-11.744-3.043-15.975c-3.587-4.236-9.158-6.766-14.896-6.766
   c-4.109,0-7.852,1.29-10.733,3.6c-3.045-4.6-9.469-7.03-15.613-7.03c-7.055,0-14.166,3.225-16.001,10.323
@@ -189,11 +190,4 @@
                       dur="5s"
                       repeatCount="indefinite"/>
 </path> 
-</svg>
-</span>  
-</span>
-
-</div>  
-</div>
-</div>
-</footer>
+</svg> -->

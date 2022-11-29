@@ -1,52 +1,47 @@
+<div class="bg w-full grid p-2 sm:pl-0 sm:justify-center">
+  <div class="parent">
+    <div class="">
+      <img src="/static/hand-spock.svg" alt="My Happy SVG" />
+    </div>
+    <div class="image1 Lighters text-5xl">Miki</div>
+    <div class="image2 Lighters text-5xl">Group</div>
+  </div>
+  <div>
+    <p class=" text-white text-2xl">Jiří Mika -</p>
+  </div>
+</div>
+
 <style>
   .heavy {
     font-size: 5em;
     /* font-family: 'Patrick Hand', cursive; */
-    font-family: 'Rubik Distressed', cursive;
+    font-family: "Rubik Distressed", cursive;
   }
-     
-      .bg {
-        background-image: url("/static/c.png");
-        height: 100%;
-        min-height: 667px;        
-        width: 100%;
-        max-width: 1280px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; 
-      }
 
-         .parent {
-        position: relative;
-        top: 0;
-        left: 0;
-      }
-      .image1 {
-        position: relative;
-        top: 0;
-        left: 0;        
-      }
-      .image2 {
-        position: absolute;
-        top: 70px;
-        left: 70px;        
-      }
-</style>
+  .bg {
+    background-image: url("/static/c.png");
+    height: 100%;
+    min-height: 667px;
+    width: 100%;
+    max-width: 1280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-
-
-<div class="bg w-full grid p-2 sm:pl-0 sm:justify-center pt-10"> 
-    <div class="parent">                  
-      <div class="image1 Lighters text-5xl">Miki</div>
-      <div class="image2 Lighters text-5xl">Group</div>
-    </div>
-    <div>
-    <p class=" text-white text-2xl">Jiří Mika - </p>
-      </div>
-  </div>
-
-
-
-
-
-
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image2 {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+  }
+</div>
