@@ -1,7 +1,7 @@
 <div class="bg w-full grid p-2 sm:pl-0 sm:justify-center">
-  <div class="parent">
+  <div class="">
     <div class="">
-      <img src="/static/hand-spock.svg" alt="My Happy SVG" />
+      <img class="" src="/static/hand-spock.svg" alt="" />
     </div>
     <div class="image1 Lighters text-5xl">Miki</div>
     <div class="image2 Lighters text-5xl">Group</div>
