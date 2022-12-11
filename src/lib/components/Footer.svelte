@@ -1,5 +1,9 @@
-<footer class="pt-5 m-5 border border-slate-300 rounded-lg bg-slate-100">
-  <div class="grid md:justify-end">    
+<footer class="m-3 md:m-6 border border-slate-300 rounded-lg bg-slate-100 shadow-md grid grid-cols-2 animate__animated animate__fadeIn animate__slow">
+  <div class="grid content-center ml-5">
+    <p class="text-md"> Email: mikigroup@gmail.com
+      </p>
+  </div>
+  <div class="">    
       <div class="">        
           <p class="grid place-content-end text-sm m-5">
             Všechny práva vyhrazena

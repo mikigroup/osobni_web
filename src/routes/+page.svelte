@@ -1,10 +1,10 @@
-<div class="bg w-full grid p-2 sm:pl-0 justify-center">
+<div class="bg w-full grid p-2 sm:pl-0 justify-center shadow-2xl m-3">
   <div class="grid grid-rows-4">
     <div class="grid justify-center mt-5">
-      <img class="spock w-16 md:w-32" src="/static/hand-spock.svg" alt="miki spock" />
+      <img class="opacity-90 spock w-24 md:w-32" src="/static/hand-spock.svg" alt="miki spock" />
     </div>
-    <div class="image1 Lighters text-5xl grid content-end text-white">Miki</div>
-    <div class="image2 Lighters text-5xl text-white">Group</div>
+    <div class="image1 Lighters text-5xl grid content-end text-white animate__animated animate__fadeInLeft">Miki</div>
+    <div class="image2 Lighters text-5xl text-white animate__animated animate__fadeInRight">Group</div>
   </div>  
 </div>
 
