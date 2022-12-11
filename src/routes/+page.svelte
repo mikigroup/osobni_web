@@ -1,14 +1,11 @@
-<div class="bg w-full grid p-2 sm:pl-0 sm:justify-center">
-  <div class="">
-    <div class="">
-      <img class="" src="/static/hand-spock.svg" alt="" />
+<div class="bg w-full grid p-2 sm:pl-0 justify-center">
+  <div class="grid grid-rows-4">
+    <div class="grid justify-center mt-5">
+      <img class="spock w-16 md:w-32" src="/static/hand-spock.svg" alt="miki spock" />
     </div>
-    <div class="image1 Lighters text-5xl">Miki</div>
-    <div class="image2 Lighters text-5xl">Group</div>
-  </div>
-  <div>
-    <p class=" text-white text-2xl">Jiří Mika -</p>
-  </div>
+    <div class="image1 Lighters text-5xl grid content-end text-white">Miki</div>
+    <div class="image2 Lighters text-5xl text-white">Group</div>
+  </div>  
 </div>
 
 <style>
@@ -38,10 +35,17 @@
     position: relative;
     top: 0;
     left: 0;
+    color: #e0e0eb;
   }
   .image2 {
     position: relative;
-    top: 10px;
+    top: 0px;
+    left: 50px;
+    color: #e0e0eb;
+  }
+  .spock  {
+    position: relative;
+    top: 100px;
     left: 0px;
   }
 </style>
