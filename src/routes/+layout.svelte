@@ -7,7 +7,7 @@
 <div class="">  <!-- bg-cover bg-center" style="background-image: url(/static/hor.svg) -->
 
 <Header />
-<div class="flex justify-center pt-5 m-5">
+<div class="flex justify-center pt-5">
 <slot />
 </div>
 </div>
