@@ -40,8 +40,8 @@
     left: 0;
   }
   .image2 {
-    position: absolute;
-    top: 70px;
-    left: 70px;
+    position: relative;
+    top: 10px;
+    left: 0px;
   }
-</div>
+</style>
