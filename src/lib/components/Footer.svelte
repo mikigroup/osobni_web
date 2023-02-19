@@ -1,4 +1,4 @@
-<footer class="m-3 md:m-6 border border-slate-300 rounded-lg bg-slate-100 shadow-md grid grid-cols-2 animate__animated animate__fadeIn animate__slow">
+<footer class="md:m-6 border border-slate-300 rounded-lg bg-slate-200 shadow-md grid grid-cols-2">
   <div class="grid content-center ml-5">
     <p class="text-md"> Email: mikigroup@gmail.com
       </p>
@@ -6,7 +6,9 @@
   <div class="">    
       <div class="">        
           <p class="grid place-content-end text-sm m-5">
-            Všechny práva vyhrazena
+            Zapsán u Živnostenského úřadu v Jeseníku <br>
+            IČO: 01645803 - nejsem plátce DPH<br>
+            Copyright 2023 - Všechny práva vyhrazena
           </p>        
       </div>    
   </div>
