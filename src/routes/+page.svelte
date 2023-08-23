@@ -9,18 +9,20 @@
         />
       </div>
       <div
-        class="image1 Lighters text-5xl grid content-end text-white animate__animated animate__fadeInLeft"
+        class="image1 Lighters text-5xl grid content-end animate__animated animate__fadeInLeft"
       >
         Miki
       </div>
       <div
-        class="image2 Lighters text-5xl text-white animate__animated animate__fadeInRight"
+        class="image2 Lighters text-5xl animate__animated animate__fadeInRight"
       >
         Group
       </div>
     </div>
   </div>
 </div>
+
+<hr class="mt-10">
 
 <div class="h-32" />
 
@@ -45,17 +47,19 @@
   <div />
 </div>
 
-<div class="mt-10">
+<div class="mt-10 p-10">
   Využijte sílu digitálních řešení na míru se zkušeným programátorem na volné
   noze. Jsem vybaven silnými základy v jazycích HTML, CSS a JavaScript a
   pokročilou znalostí jazyka Svelte, a proto dodávám responzivní a uživatelsky
-  přívětivé webové aplikace šité na míru vašim jedinečným obchodním cílům. Moje
-  cesta v programování trvá několik let, během nichž jsem si vypěstoval bohaté
+  přívětivé webové aplikace šité na míru vašim jedinečným obchodním cílům.
+  <br><br>
+  Moje cesta v programování trvá několik let, během nichž jsem si vypěstoval bohaté
   znalosti o složitosti vývoje webových aplikací. Jsem zběhlý ve vytváření
   škálovatelných a na výkon orientovaných frontendových architektur s využitím
   nejnovějších webových technologií, přičemž se zaměřuji na psaní čistého,
-  efektivního a udržovatelného kódu. V rozsáhlé oblasti JavaScriptu sahají mé
-  odborné znalosti až k inovativnímu, na komponentách založenému frameworku
+  efektivního a udržovatelného kódu.
+  <br><br>
+  V rozsáhlé oblasti JavaScriptu sahají mé odborné znalosti až k inovativnímu, na komponentách založenému frameworku
   Svelte. Svelte, který je uznávaný pro vytváření vysoce výkonného kódu díky
   přesunu zátěže z běhu na krok kompilace, otevírá bránu k vysoce
   optimalizovanému prostředí pro koncové uživatele. Moje služby nejsou jen o
@@ -91,7 +95,7 @@
   }
 
   .bg {
-    background-image: url("/static/c.png");
+    background-image: url("/static/b.png");
     height: 100%;
     min-height: 667px;
     width: 100%;
@@ -110,13 +114,13 @@
     position: relative;
     top: 0;
     left: 0;
-    color: #e0e0eb;
+    color: #4d4c4c;
   }
   .image2 {
     position: relative;
     top: 0px;
     left: 50px;
-    color: #e0e0eb;
+    color: #4d4c4c;
   }
   .spock {
     position: relative;
