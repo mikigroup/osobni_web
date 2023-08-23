@@ -104,7 +104,7 @@ top: 110%;
 	/* overflow: hidden;  */
 }
 
-p, li, nav {
+header, main, footer {
   font-family: 'Inter', sans-serif;
 }
 

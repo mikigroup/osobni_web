@@ -22,67 +22,54 @@
   </div>
 </div>
 
-<hr class="mt-10">
+<hr class="mt-10" />
 
-<div class="h-32" />
-
-<div class="grid grid-cols-3">
-  <div />
   <div class="grid">
-    <h2 class="text-2xl mb-5 p-5 border-2 text-center">
+    <div class="justify-items-center grid">
+    <h1 class="mb-5 container p-5 border rounded-xl text-center text-3xl">
       70% kodér - 30% programátor
-    </h2>
-    <h3 class="text-xl">// v čem rád dělám</h3>
-    <div class="">
-      <li>Tailwind</li>
-      <li>Bootstrap</li>
-      <li>Svelte</li>
-      <li>Sanity</li>
-      <li>GitHub</li>
-      <li>Vercel</li>
-      <li>GIMP</li>
-      <li>VSCode</li>
+    </h1>
+    </div>
+    <h3 class="m-5 text-center underline-offset-3 underline text-2xl">Pracuji s těmito pomocníky</h3>
+    <div class="grid grid-cols-2 text-center my-5 text-2xl">
+      <div>Tailwind</div>
+      <div>Bootstrap</div>
+      <div>Svelte</div>
+      <div>Sanity</div>
+      <div>GitHub</div>
+      <div>Vercel</div>
+      <div>GIMP</div>
+      <div>VSCode</div>
     </div>
   </div>
-  <div />
+
+<div class="mt-5 p-10 text-center">
+  <p>Využijme sílu digitální doby a tvořme webové aplikace, které budou mít lehký, přehledný a rychlý design. 
+  Inovativní framework SvelteKit - kvalitní základ pro moderní weby.
+  <br /><br />
+  Moje cesta k programování trvala několik let, během nichž jsem nabral znalosti o složitosti vývoje webových aplikací. Jsem zběhlý ve vytváření škálovatelných
+  a na výkon orientovaných frontendových architektur technologií, přičemž se zaměřuji na psaní čistého, efektivního a udržovatelného
+  kódu. 
+  <br /><br />
+  Můj závazek je dodržovat osvědčené postupy při kódování navíc zajišťuje, že vaše projekty budou
+  nejen funkční, ale také vhodné pro SEO a přístupné. Jste připraveni proměnit své
+  nápady v digitální realitu? Pojďme společně vytvořit nové dílo.</p>
 </div>
 
-<div class="mt-10 p-10">
-  Využijte sílu digitálních řešení na míru se zkušeným programátorem na volné
-  noze. Jsem vybaven silnými základy v jazycích HTML, CSS a JavaScript a
-  pokročilou znalostí jazyka Svelte, a proto dodávám responzivní a uživatelsky
-  přívětivé webové aplikace šité na míru vašim jedinečným obchodním cílům.
-  <br><br>
-  Moje cesta v programování trvá několik let, během nichž jsem si vypěstoval bohaté
-  znalosti o složitosti vývoje webových aplikací. Jsem zběhlý ve vytváření
-  škálovatelných a na výkon orientovaných frontendových architektur s využitím
-  nejnovějších webových technologií, přičemž se zaměřuji na psaní čistého,
-  efektivního a udržovatelného kódu.
-  <br><br>
-  V rozsáhlé oblasti JavaScriptu sahají mé odborné znalosti až k inovativnímu, na komponentách založenému frameworku
-  Svelte. Svelte, který je uznávaný pro vytváření vysoce výkonného kódu díky
-  přesunu zátěže z běhu na krok kompilace, otevírá bránu k vysoce
-  optimalizovanému prostředí pro koncové uživatele. Moje služby nejsou jen o
-  kódování, ale také o vytváření digitálních zážitků. Moje zběhlost v jazycích
-  HTML, CSS a JavaScript mi ve spojení se softwarem Svelte umožňuje vytvářet
-  vizuálně atraktivní, rychlé a interaktivní webové stránky a webové aplikace.
-  Můj závazek dodržovat osvědčené postupy při kódování navíc zajišťuje, že vaše
-  projekty budou nejen funkční, ale také vhodné pro SEO a přístupné. Jste
-  připraveni proměnit své nápady v digitální realitu? Pojďme společně vytvořit
-  něco pozoruhodného.
-</div>
-
-<div class="grid grid-cols-3 justify-items-center my-10 md:p-20 border-2">
+<div class="grid grid-cols-3 justify-items-center md:my-10 p-5 md:p-20 border-2">
   <img
-    class="w-64 animate__animated animate__fadeIn animate animate__slow"
+    alt="Html5_icon"
+    class="w-48 animate__animated animate__fadeIn animate animate__slow"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
   />
   <img
-    class="w-64 animate__animated animate__fadeIn animate animate__slow"
+    alt="Css3_icon"
+    class="w-48 animate__animated animate__fadeIn animate animate__slow"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
   />
   <img
-    class="w-64 animate__animated animate__fadeIn animate animate__slow"
+    alt="JS_icon"
+    class="w-44 animate__animated animate__fadeIn animate animate__slow md:mt-5"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
   />
 </div>
