@@ -54,6 +54,9 @@
   Můj závazek je dodržovat osvědčené postupy při kódování navíc zajišťuje, že vaše projekty budou
   nejen funkční, ale také vhodné pro SEO a přístupné. Jste připraveni proměnit své
   nápady v digitální realitu? Pojďme společně vytvořit nové dílo.</p>
+  <br /><br />
+  Webové stránky udržuji technologicky aktuální a zabezpečené.
+
 </div>
 
 <div class="grid grid-cols-3 justify-items-center md:my-10 p-5 md:p-20 border-2">
