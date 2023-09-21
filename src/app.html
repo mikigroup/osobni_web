@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%sveltekit.assets%/favicon.png" />
-    <meta name="viewport" content="width=device-width" />    
+    <meta name="viewport" content="width=device-width" />
     <script src="/static/jquery-3.6.1.min.js"></script>
     <script src="/static/script.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/130527/h5ab-snow-flurry.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/130527/h5ab-snow-flurry.js"></script>
     %sveltekit.head%
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,20 +15,27 @@
       href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Rubik+Distressed&display=swap"
       rel="stylesheet"
     />
-		 <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H3E0BYKZZS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-H3E0BYKZZS');
-</script>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- =================================================================
+     | Tak toto je můj kód, pokud máte přopomínky, napište, rád ho vylepším | 
+     ================================================================= -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-H3E0BYKZZS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-H3E0BYKZZS");
+    </script>
   </head>
-  
+
   <body>
     <div>%sveltekit.body%</div>
     <script>
