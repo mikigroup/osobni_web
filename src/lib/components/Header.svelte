@@ -9,9 +9,9 @@
     </div>
     <nav>
     <div class="hidden rounded-md border-2 border-slate-300 text-center mt-5 p-5">Menu</div>    <!-- sm:hidden -->
-    <div class="grid grid-cols-3 content-center h-full text-xl invisible sm:visible">       
+    <div class="grid grid-cols-3 content-center h-full text-xl invisible sm:visible gap-2">       
             <a class="grid justify-items-end" href="/">V čem pracuji</a> 
-            <a class="grid justify-items-center" href="/">Reference</a> 
+            <a class="grid justify-items-center" href="/">Reference</a>
             <a href="/">Kontakt</a>             
       </div>  
   </nav>

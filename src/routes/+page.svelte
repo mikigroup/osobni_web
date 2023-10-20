@@ -25,38 +25,34 @@
 <hr class="mt-10" />
 
   <div class="grid">
-    <div class="justify-items-center grid">
+    <div class="justify-items-center grid mt-5">
     <h1 class="mb-5 container p-5 border rounded-xl text-center text-3xl">
-      70% kodér - 30% programátor
+      kodér a programátor
     </h1>
     </div>
     <h3 class="m-5 text-center underline-offset-3 underline text-2xl">Pracuji s těmito pomocníky</h3>
     <div class="grid grid-cols-2 text-center my-5 text-2xl">
       <div>Tailwind</div>
       <div>Bootstrap</div>
-      <div>Svelte</div>
-      <div>Sanity</div>
+      <div>Svelte</div>      
       <div>GitHub</div>
+      <div>Sveltekit</div>
       <div>Vercel</div>
-      <div>GIMP</div>
+      <div>Sanity</div>
       <div>VSCode</div>
     </div>
   </div>
 
-<div class="mt-5 p-10 text-center">
-  <p>Využijme sílu digitální doby a tvořme webové aplikace, které budou mít lehký, přehledný a rychlý design. 
-  Inovativní framework SvelteKit - kvalitní základ pro moderní weby.
+<div class="mt-5 p-10 text-center text-lg">
+  <p>Využijme sílu digitální doby a tvořme webové aplikace, které budou mít lehký, přehledný a rychlý design.   
   <br /><br />
   Moje cesta k programování trvala několik let, během nichž jsem nabral znalosti o složitosti vývoje webových aplikací. Jsem zběhlý ve vytváření škálovatelných
-  a na výkon orientovaných frontendových architektur technologií, přičemž se zaměřuji na psaní čistého, efektivního a udržovatelného
+  a na výkon orientovaných webových stránek, přičemž se zaměřuji na psaní čistého, efektivního a udržovatelného
   kódu. 
   <br /><br />
-  Můj závazek je dodržovat osvědčené postupy při kódování navíc zajišťuje, že vaše projekty budou
-  nejen funkční, ale také vhodné pro SEO a přístupné. Jste připraveni proměnit své
-  nápady v digitální realitu? Pojďme společně vytvořit nové dílo.</p>
-  <br /><br />
-  Webové stránky udržuji technologicky aktuální a zabezpečené.
-
+  Webové stránky udržuji technologicky aktuální a zabezpečené. Inovativní framework SvelteKit = kvalitní základ pro moderní weby.
+  <br /> <br /> 
+  Jste připraveni proměnit své nápady v digitální realitu? Pojďme společně vytvořit nové dílo.</p>
 </div>
 
 <div class="grid grid-cols-3 justify-items-center md:my-10 p-5 md:p-20 border-2">
