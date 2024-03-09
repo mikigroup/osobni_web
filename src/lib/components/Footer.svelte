@@ -1,7 +1,7 @@
 <footer class="md:m-6 border border-slate-300 rounded-lg shadow-md grid grid-cols-2">
   <div class="grid content-center ml-5">
-    <p class="text-md">mikigroup@gmail.com <br>
-    +420 777 777 777 <br>
+    <p class="text-md">info@mikigroup.cz<br>
+    +420 733 362 418 <br>
       </p>
   </div>
   <div class="">    

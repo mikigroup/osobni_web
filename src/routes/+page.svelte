@@ -1,3 +1,4 @@
+<article>
 <div class="grid justify-items-center mt-10 md:px-10">
   <div class="bg grid shadow-2xl justify-center border-2 border-neutral-600">
     <div class="grid grid-rows-4">
@@ -21,9 +22,10 @@
     </div>
   </div>
 </div>
+</article>
 
 <hr class="mt-10" />
-
+<article>
   <div class="grid">
     <div class="justify-items-center grid mt-5">
     <h1 class="mb-5 container p-5 border rounded-xl text-center text-3xl">
@@ -42,9 +44,11 @@
       <div>VSCode</div>
     </div>
   </div>
+</article>
 
-<div class="mt-5 p-10 text-center text-lg">
-  <p>Využijme sílu digitální doby a tvořme webové aplikace, které budou mít lehký, přehledný a rychlý design.   
+<article>
+<div class="mt-5 lg:mt-10 p-10 text-center text-lg lg:text-2xl">
+  <p>Využijme sílu digitální doby a tvořme webové aplikace, které budou mít <strong>lehký, přehledný a rychlý design</strong>.   
   <br /><br />
   Moje cesta k programování trvala několik let, během nichž jsem nabral znalosti o složitosti vývoje webových aplikací. Jsem zběhlý ve vytváření škálovatelných
   a na výkon orientovaných webových stránek, přičemž se zaměřuji na psaní čistého, efektivního a udržovatelného
@@ -52,9 +56,10 @@
   <br /><br />
   Webové stránky udržuji technologicky aktuální a zabezpečené. Inovativní framework SvelteKit = kvalitní základ pro moderní weby.
   <br /> <br /> 
-  Jste připraveni proměnit své nápady v digitální realitu? Pojďme společně vytvořit nové dílo.</p>
+  Jste připraveni proměnit své nápady v digitální realitu? Pojďme společně vytvořit <strong>nové dílo.</strong></p>
 </div>
-
+</article>
+<article>
 <div class="grid grid-cols-3 justify-items-center md:my-10 p-5 md:p-20 border-2">
   <img
     alt="Html5_icon"
@@ -72,7 +77,7 @@
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
   />
 </div>
-
+</article>
 <style>
   .heavy {
     font-size: 5em;
