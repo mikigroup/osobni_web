@@ -1,3 +1,7 @@
+
+<svelte:head>
+<title>Mikigroup - kódér a programátor</title>
+</svelte:head>
 <article>
 <div class="grid justify-items-center mt-10 md:px-10">
   <div class="bg grid shadow-2xl justify-center border-2 border-neutral-600">
