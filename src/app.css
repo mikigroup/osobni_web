@@ -29,16 +29,6 @@ z-index: 99999;
 top: 110%;
 }
 
-
-/* @media all and (max-width: 800px) {
-      .hp-cyrcle {  }      
-    }
-
-@media all and (max-width: 1400px) {
-      .hp-cyrcle-div { height: 300px !important; }      
-      .hp-cyrcle { width: 300px  !important; height: 300px !important; }              
-} */
-
 .floating-img {
 		transform: translateY(-10%);
 		animation: floater-y 30s infinite;
@@ -71,15 +61,6 @@ top: 110%;
 	}
 
 
-/* @keyframes hp-cyrcle {
-   0%{transform: translateX(0%);transition: ease 0.5s;}
-  50%{transform: translateX(10%);transition: ease 0.5s;}
-}
-
-@keyframes hp-cyrcle2 {
-  50%{transform: translateY(10%);transition: ease 0.5s;}
-  0%{transform: translateY(0%);transition: ease 0.5s;}
-} */
 
 .test {
   height: 0%;
