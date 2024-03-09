@@ -1,6 +1,6 @@
 {
 	"name": "osobni-web",
-	"version": "0.0.1",
+	"version": "1.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -14,7 +14,10 @@
 		"postcss": "^8.4.19",
 		"svelte": "^3.44.0",
 		"svelte-preprocess": "^4.10.7",
-		"tailwindcss": "^3.2.4"		
+		"tailwindcss": "^3.2.4"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"vite": "^4.4.9"
+	}
 }
