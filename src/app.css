@@ -4,10 +4,9 @@
 @tailwind utilities;
 
 
-
 @font-face {
     font-family: Lighters;
-    src: url("/lighters-font/Lightersdemo-z8p30.otf") format("opentype");
+    src: url("/Lightersdemo-z8p30.otf") format("opentype");
 }
 
 .Lighters {
@@ -85,7 +84,7 @@ top: 110%;
 	/* overflow: hidden;  */
 }
 
-header, main, footer {
+ header, main, footer {
   font-family: 'Inter', sans-serif;
 }
 
