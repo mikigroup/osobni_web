@@ -18,8 +18,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.5.3",
     "animate.css": "^4.1.1"
   }
 }
-
-
