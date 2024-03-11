@@ -18,8 +18,7 @@
   },
   "type": "module",
   "dependencies": {
-    "animate.css": "^4.1.1",
-    "vite": "^4.4.9"
+    "animate.css": "^4.1.1"
   }
 }
 
