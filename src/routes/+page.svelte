@@ -58,7 +58,7 @@
 
 <style>
   .bg {
-    background-image: url("/b.png");
+    background-image: url("/b.avif");
     height: 100%;
     min-height: 667px;
     width: 100%;
