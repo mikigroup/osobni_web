@@ -1,21 +1,23 @@
 {
-	"name": "osobni-web",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/kit": "next",
-		"autoprefixer": "^10.4.13",
-		"postcss": "^8.4.19",
-		"svelte": "^3.44.0",
-		"svelte-preprocess": "^4.10.7",
-		"tailwindcss": "^3.2.4",
-		"vite": "^3.1.0"
-	},
-	"type": "module"
+  "name": "osobni-web",
+  "version": "1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "svelte-preprocess": "^5.0.3",
+    "tailwindcss": "^3.2.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/adapter-auto": "^3.1.1",
+    "@sveltejs/kit": "^2.5.3",
+    "animate.css": "^4.1.1",
+    "svelte": "^4.2.12"
+  }
 }
