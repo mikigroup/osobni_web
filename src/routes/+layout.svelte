@@ -8,6 +8,8 @@
 <main>
 <slot />
 </main>
+
+
 <Footer />
 
 <style>

@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: Lighters;
-    src: url("/Lightersdemo-z8p30.otf") format("opentype");
+    src: url("/static/Lightersdemo-z8p30.otf") format("opentype");
 }
 
 .Lighters {
