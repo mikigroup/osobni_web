@@ -30,53 +30,161 @@
 		</div>
 	</article>
 
-	<hr class="mt-10" />
-	<article>
-		<div class="grid">
+	<hr class="my-10" />
+<!--	<article class="">
+		<div class="grid mt-10">
 			<div class="justify-items-center grid mt-5">
-				<h1 class="mb-5 container p-5 border rounded-xl text-center text-3xl">
-					kodér a programátor
+				<h1
+					class="mb-5 container p-5 border rounded-xl text-center text-3xl bg-gray-300">
+					Kodér a programátor
 				</h1>
 			</div>
-			<h3 class="m-5 text-center underline-offset-3 underline text-2xl">
-				Pracuji s těmito pomocníky
-			</h3>
-			<div class="grid grid-cols-2 text-center my-5 text-2xl">
-				<div>Tailwind</div>
-				<div>Bootstrap</div>
-				<div>Svelte</div>
-				<div>GitHub</div>
-				<div>Sveltekit</div>
-				<div>Vercel</div>
-				<div>Sanity</div>
-				<div>VSCode</div>
+
+			<div class="border rounded-xl">
+				<h3 class="m-5 text-center underline-offset-3 underline text-2xl">
+					Pracuji s těmito pomocníky
+				</h3>
+				<div class="grid grid-cols-2 text-center my-10 text-2xl pt-10 gap-3">
+					<div>Tailwind</div>
+					<div>Svelte / Sveltekit</div>
+					<div>GitHub</div>
+					<div>Sanity</div>
+					<div>Vercel</div>
+					<div>Supabase</div>
+				</div>
+			</div>
+		</div>
+	</article>-->
+
+	<div class="text-center my-10">
+		<h1
+				class="inline-block px-8 py-4 text-3xl font-bold text-gray-800 bg-gray-200 rounded-xl">
+			Kodér a programátor
+		</h1>
+	</div>
+
+	<article class="mx-auto px-4 bg-white border rounded-xl shadow-lg">
+		<div class="mt-5 space-y-8">
+			<div
+				class="p-6">
+				<h3
+					class="text-2xl font-bold text-center mb-8 pb-2 border-b">
+					Pracuji s těmito pomocníky
+				</h3>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-6 py-6">
+					<div
+						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center">
+						<span class="text-xl text-gray-700 font-medium">Tailwind</span>
+					</div>
+					<div
+						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center">
+						<span class="text-xl text-gray-700 font-medium"
+							>Svelte / SvelteKit</span>
+					</div>
+					<div
+						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center">
+						<span class="text-xl text-gray-700 font-medium">GitHub</span>
+					</div>
+					<div
+						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center">
+						<span class="text-xl text-gray-700 font-medium">Sanity</span>
+					</div>
+					<div
+						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center">
+						<span class="text-xl text-gray-700 font-medium">Vercel</span>
+					</div>
+					<div
+						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center">
+						<span class="text-xl text-gray-700 font-medium">Supabase</span>
+					</div>
+				</div>
 			</div>
 		</div>
 	</article>
 
-	<article>
-		<div class="mt-5 lg:mt-10 p-10 text-center text-lg lg:text-2xl">
-			<p>
-				Využijme sílu digitální doby a tvořme webové aplikace, které budou mít <strong
-					>lehký, přehledný a rychlý design</strong
-				>.
-				<br /><br />
-				Moje cesta k programování trvala několik let, během nichž jsem nabral znalosti
-				o složitosti vývoje webových aplikací. Jsem zběhlý ve vytváření škálovatelných
-				a na výkon orientovaných webových stránek, přičemž se zaměřuji na psaní čistého,
-				efektivního a udržovatelného kódu.
-				<br /><br />
-				Webové stránky udržuji technologicky aktuální a zabezpečené. Inovativní framework
-				SvelteKit = kvalitní základ pro moderní weby.
-				<br /> <br />
-				Jste připraveni proměnit své nápady v digitální realitu? Pojďme společně
-				vytvořit <strong>nové dílo.</strong>
-			</p>
+	<article class="bg-white border rounded-xl shadow-lg my-10">
+		<div class="mt-5 p-10 text-lg lg:text-2xl">
+			<div class="max-w-4xl mx-auto px-4 py-8 text-gray-800">
+				<p class="text-xl mb-8">
+					Využívám sílu moderních webových technologií k tvorbě rychlých,
+					přehledných a uživatelsky přívětivých aplikací. Moje práce stojí na
+					třech pilířích:
+					<span class="font-semibold text-cyan-800">výkon</span>,
+					<span class="font-semibold text-cyan-800">kvalita</span> a
+					<span class="font-semibold text-cyan-800">udržitelnost</span>.
+				</p>
+
+				<p class="text-lg mb-4">
+					Specializuji se na vývoj pomocí nejnovějších technologií:
+				</p>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+					<div
+						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+						<div class="font-bold text-cyan-800 mb-2">SvelteKit</div>
+						<div class="text-gray-600">
+							Pro rychlé a reaktivní uživatelské rozhraní
+						</div>
+					</div>
+					<div
+						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+						<div class="font-bold text-cyan-800 mb-2">TypeScript</div>
+						<div class="text-gray-600">
+							Pro bezpečný a dobře strukturovaný kód
+						</div>
+					</div>
+					<div
+						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+						<div class="font-bold text-cyan-800 mb-2">Supabase</div>
+						<div class="text-gray-600">Pro robustní backend a autentizaci</div>
+					</div>
+					<div
+						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+						<div class="font-bold text-cyan-800 mb-2">Tailwind & DaisyUI</div>
+						<div class="text-gray-600">Pro moderní a responzivní design</div>
+					</div>
+					<div
+						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+						<div class="font-bold text-cyan-800 mb-2">Vercel</div>
+						<div class="text-gray-600">Pro spolehlivý deployment a hosting</div>
+					</div>
+					<div
+						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+						<div class="font-bold text-cyan-800 mb-2">GitHub</div>
+						<div class="text-gray-600">Verzovací systém kódu</div>
+					</div>
+				</div>
+
+				<p class="text-2xl font-semibold mb-4 text-center">Kladu důraz na:</p>
+
+				<div class="flex justify-center mb-10">
+					<ul
+						class="space-y-2 inline-block text-left list-none border rounded-xl p-10 mb-10">
+						<li class="text-gray-700">Čistý, dobře organizovaný kód</li>
+						<li class="text-gray-700">Výkonnostní optimalizace</li>
+						<li class="text-gray-700">Typovou bezpečnost</li>
+						<li class="text-gray-700">Moderní autentizační řešení</li>
+						<li class="text-gray-700">Responzivní design</li>
+						<li class="text-gray-700">Průběžnou údržbu a aktualizace</li>
+					</ul>
+				</div>
+
+				<p class="text-lg mb-8 text-center">
+					Dokáži navrhnout a implementovat webových aplikací na míru, která
+					poroste společně s vašimi potřebami. Moje projekty jsou postavené na
+					moderních technologiích a vývojářských praktikách.
+				</p>
+
+				<p class="text-xl font-semibold text-cyan-800 text-center">
+					Máte nápad na projekt? <span class="font-bold"
+						>Pojďme společně vytvořit něco výjimečného.</span>
+				</p>
+			</div>
 		</div>
 	</article>
-	<article class="mt-10">
-		<div
-			class="grid grid-cols-2 lg:grid-cols-4 justify-items-center p-5 border rounded-xl">
+	<article class="mt-10 border rounded-xl">
+		<div class="grid grid-cols-2 lg:grid-cols-4 justify-items-center p-5">
 			<img
 				alt="Html5_icon"
 				class="w-40 animate__animated animate__fadeIn animate animate__slow m-5"
@@ -90,11 +198,10 @@
 				class="w-36 animate__animated animate__fadeIn animate animate__slow md:mt-5 m-5"
 				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 
-			<img alt="Svelte_icon"
-				 class="w-36 animate__animated animate__fadeIn animate animate__slow md:mt-5 m-5"
-				 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" />
-
-
+			<img
+				alt="Svelte_icon"
+				class="w-36 animate__animated animate__fadeIn animate animate__slow md:mt-5 m-5"
+				src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" />
 		</div>
 	</article>
 </div>
