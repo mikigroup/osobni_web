@@ -1,4 +1,4 @@
-<header class="md:mx-7 bg-slate-200 md:p-3 border border-slate-300 rounded-lg">
+<header class="md:m-6 bg-slate-200 md:p-3 border border-slate-300 rounded-lg">
 	<div class="flex flex-col lg:flex-row text-xl text-center justify-center items-center p-3 gap-2 lg-gap:0">
 
 		<!-- Jméno -->

@@ -74,21 +74,27 @@
 			</p>
 		</div>
 	</article>
-	<article>
+	<article class="mt-10">
 		<div
-			class="grid grid-cols-3 justify-items-center md:my-10 p-5 md:p-20 border-2">
+			class="grid grid-cols-2 lg:grid-cols-4 justify-items-center p-5 border rounded-xl">
 			<img
 				alt="Html5_icon"
-				class="w-48 animate__animated animate__fadeIn animate animate__slow"
+				class="w-40 animate__animated animate__fadeIn animate animate__slow m-5"
 				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
 			<img
 				alt="Css3_icon"
-				class="w-48 animate__animated animate__fadeIn animate animate__slow"
+				class="w-40 animate__animated animate__fadeIn animate animate__slow m-5"
 				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
 			<img
 				alt="JS_icon"
-				class="w-44 animate__animated animate__fadeIn animate animate__slow md:mt-5"
+				class="w-36 animate__animated animate__fadeIn animate animate__slow md:mt-5 m-5"
 				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+
+			<img alt="Svelte_icon"
+				 class="w-36 animate__animated animate__fadeIn animate animate__slow md:mt-5 m-5"
+				 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" />
+
+
 		</div>
 	</article>
 </div>
