@@ -160,7 +160,7 @@
 
 				<div class="flex justify-center mb-10">
 					<ul
-						class="space-y-2 inline-block text-left list-none border rounded-xl p-10 mb-10">
+						class="space-y-2 inline-block text-left list-none border rounded-xl p-5 lg:p-10 mb-10">
 						<li class="text-gray-700">Čistý, dobře organizovaný kód</li>
 						<li class="text-gray-700">Výkonnostní optimalizace</li>
 						<li class="text-gray-700">Typovou bezpečnost</li>
@@ -170,13 +170,13 @@
 					</ul>
 				</div>
 
-				<p class="text-lg mb-8 text-center">
+				<p class="text-lg mb-8 lg:text-center">
 					Dokáži navrhnout a implementovat webových aplikací na míru, která
 					poroste společně s vašimi potřebami. Moje projekty jsou postavené na
 					moderních technologiích a vývojářských praktikách.
 				</p>
 
-				<p class="text-xl font-semibold text-cyan-800 text-center">
+				<p class="text-xl font-semibold text-cyan-800 lg:text-center">
 					Máte nápad na projekt? <span class="font-bold"
 						>Pojďme společně vytvořit něco výjimečného.</span>
 				</p>
