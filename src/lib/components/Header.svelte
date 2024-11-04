@@ -4,7 +4,9 @@
 		<div
 				class="border-2 rounded-lg text-center bg-slate-100 shadow-lg w-full lg:order-2 p-4 animate__animated animate__fadeIn animate__delay-2s animate__fast">
 			<div class="text-2xl md:text-3xl">
+				<h1>
 				Jiří Mika - Web developer
+				</h1>
 			</div>
 		</div>
 

@@ -31,7 +31,7 @@
 	</article>
 
 	<hr class="my-10" />
-<!--	<article class="">
+	<!--	<article class="">
 		<div class="grid mt-10">
 			<div class="justify-items-center grid mt-5">
 				<h1
@@ -57,34 +57,36 @@
 	</article>-->
 
 	<div class="text-center my-10">
-		<h1
-				class="inline-block px-8 py-4 text-3xl font-bold text-gray-800 bg-gray-200 rounded-xl">
-			Kodér a programátor
-		</h1>
+		<blockquote
+			class="text-4xl font-semibold italic text-center text-slate-900 font-mono">
+			<span
+				class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+				<span class="relative text-white">Kodér</span>
+			</span> a <span>#programátor</span>
+		</blockquote>
 	</div>
 
 	<article class="mx-auto px-4 bg-white border rounded-xl shadow-lg">
 		<div class="mt-5 space-y-8">
-			<div
-				class="p-6">
+			<div class="p-6">
 				<h3
-					class="text-2xl font-bold text-center mb-8 pb-2 border-b">
+					class="text-2xl font-bold text-center mb-8 pb-2 underline decoration-indigo-500 decoration-wavy">
 					Pracuji s těmito pomocníky
 				</h3>
 
 				<div class="grid grid-cols-1 md:grid-cols-2 gap-6 py-6">
 					<div
 						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center">
-						<span class="text-xl text-gray-700 font-medium">Tailwind</span>
+						<span class="text-xl font-medium text-blue-600">Tailwind</span>
 					</div>
 					<div
 						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center">
-						<span class="text-xl text-gray-700 font-medium"
+						<span class="text-xl font-medium text-red-600"
 							>Svelte / SvelteKit</span>
 					</div>
 					<div
 						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center">
-						<span class="text-xl text-gray-700 font-medium">GitHub</span>
+						<span class="text-xl text-violet-600 font-medium">GitHub</span>
 					</div>
 					<div
 						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center">
@@ -92,11 +94,11 @@
 					</div>
 					<div
 						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center">
-						<span class="text-xl text-gray-700 font-medium">Vercel</span>
+						<span class="text-xl text-black font-medium">Vercel</span>
 					</div>
 					<div
 						class="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md hover:bg-gray-100 transition-all duration-300 flex items-center justify-center">
-						<span class="text-xl text-gray-700 font-medium">Supabase</span>
+						<span class="text-xl text-green-700 font-medium">Supabase</span>
 					</div>
 				</div>
 			</div>
@@ -176,14 +178,16 @@
 					moderních technologiích a vývojářských praktikách.
 				</p>
 
-				<p class="text-xl font-semibold text-cyan-800 lg:text-center">
+				<p class="text-xl font-semibold text-cyan-800 lg:text-center italic">
 					Máte nápad na projekt? <span class="font-bold"
-						>Pojďme společně vytvořit něco výjimečného.</span>
+						>Pojďme ho vytvořit. Je to jednoduché, <a
+							class="underline decoration-indigo-500">napište</a
+						></span>
 				</p>
 			</div>
 		</div>
 	</article>
-	<article class="mt-10 border rounded-xl">
+	<article class="mt-10 border rounded-xl shadow-xl">
 		<div class="grid grid-cols-2 lg:grid-cols-4 justify-items-center p-5">
 			<img
 				alt="Html5_icon"
