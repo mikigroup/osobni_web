@@ -11,6 +11,6 @@
 
 
 <Footer />
-
+<GdprBanner bind:this={gdprBanner} cookieName="props.beyonk_gdpr" {...props} on:analytics={initAnalytics} />
 <style>
 </style>
