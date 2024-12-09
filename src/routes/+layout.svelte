@@ -2,6 +2,7 @@
   import "../app.css";
   import Header from "$lib/components/Header.svelte";
   import Footer from "$lib/components/Footer.svelte";
+  import Gdpr from "$lib/components/gdpr/Banner.svelte";
 </script>
 <Header />
 
@@ -11,6 +12,6 @@
 
 
 <Footer />
-<GdprBanner bind:this={gdprBanner} cookieName="props.beyonk_gdpr" {...props} on:analytics={initAnalytics} />
+<!--<Gdpr bind:this={gdprBanner} cookieName="props.beyonk_gdpr" {...props} on:analytics={initAnalytics} />-->
 <style>
 </style>
