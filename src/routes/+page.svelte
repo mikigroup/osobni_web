@@ -52,7 +52,7 @@
 		</div>
 	</article>-->
 
-	<div class="text-center my-10">
+	<div class="text-center my-10 pt-10">
 		<blockquote
 			class="text-4xl font-semibold italic text-center text-slate-900 font-mono">
 			<span
@@ -169,12 +169,11 @@
 				</div>
 
 				<p class="text-lg mb-8 lg:text-center">
-					Dokáži navrhnout a implementovat webových aplikací na míru, která
-					poroste společně s vašimi potřebami. Moje projekty jsou postavené na
-					moderních technologiích a vývojářských praktikách.
+					Dokáži navrhnout a vyvinout webovou JS aplikaci na míru, která
+					poroste společně s vašimi potřebami. 
 				</p>
 
-				<p class="text-xl font-semibold text-cyan-800 lg:text-center italic">
+				<p class="text-xl font-semibold text-cyan-800 lg:text-center italic mt-10 pt-10">
 					Máte nápad na projekt? <span class="font-bold"
 						>Pojďme ho vytvořit. Je to jednoduché, <a
 							class="underline decoration-indigo-500">napište</a
