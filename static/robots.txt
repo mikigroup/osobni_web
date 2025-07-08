@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://www.mikigroup.cz/sitemap.xml
+Sitemap: https://www.mikigroup.cz/sitemap.xml 
