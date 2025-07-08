@@ -1,10 +1,6 @@
 <script>
 </script>
 
-<svelte:head>
-	<title>Mikigroup - kódér a programátor</title>
-</svelte:head>
-
 <div class="container mx-auto">
 	<article>
 		<div class="grid justify-items-center mt-10 md:px-10">
