@@ -9,7 +9,7 @@
           <p class="grid place-content-end text-sm m-5">
             Zapsán u Živnostenského úřadu v Jeseníku <br>
             IČO: 01645803 - nejsem plátce DPH<br>
-            2020-2024  Všechny práva vyhrazena _rev2024          
+            2020-2025  Všechny práva vyhrazena _rev2025          
           </p>        
       </div>    
   </div>
